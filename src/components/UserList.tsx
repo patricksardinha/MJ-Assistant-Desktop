@@ -40,7 +40,6 @@ export default function UserList() {
         throw new Error("Erreur lors de la suppression");
       }
 
-      // Supprime localement
       setUsers((prev) => prev.filter((u) => u.id !== id));
     } catch (err) {
       console.error(err);
