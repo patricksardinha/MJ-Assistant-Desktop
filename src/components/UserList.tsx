@@ -1,10 +1,5 @@
 import { useEffect, useState } from "react";
-
-type User = {
-  id: number;
-  name: string;
-  email: string;
-};
+import { User } from "../types/type";
 
 export default function UserList() {
   const [users, setUsers] = useState<User[]>([]);
