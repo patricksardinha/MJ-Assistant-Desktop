@@ -3,3 +3,15 @@ export type User = {
   name: string;
   email: string;
 };
+
+export type NPC = {
+
+};
+
+export type Quest = {
+
+};
+
+export type Item = {
+  
+}
